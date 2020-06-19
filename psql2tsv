@@ -2,8 +2,8 @@
 
 set -e
 
-# comma-separated by default
-DELIMITER=$','; QUOTE=$'"'; NULL=$'NULL'
+# tab-separated by default
+DELIMITER=$'\t'; QUOTE=$'\\'; NULL=$'NULL'
 
 function usage() {
   echo 'psql2csv: Run a query in psql and output the result as CSV.'
