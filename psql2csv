@@ -3,7 +3,7 @@
 set -e
 
 # comma-separated by default
-DELIMITER=$','; QUOTE=$'"'; NULL=$'NULL'
+DELIMITER=$','; QUOTE=$'"'
 
 function usage() {
   echo 'psql2csv: Run a query in psql and output the result as CSV.'

@@ -3,7 +3,7 @@
 set -e
 
 # tab-separated by default
-DELIMITER=$'\t'; QUOTE=$'\\'; NULL=$'NULL'
+DELIMITER=$'\t'; QUOTE=$'\\'
 
 function usage() {
   echo 'psql2csv: Run a query in psql and output the result as CSV.'
